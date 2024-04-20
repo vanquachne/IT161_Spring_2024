@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Page</title>
+    <!--Style my page-->
+    <style>
+        /*Style the body tag*/
+        body{
+            width: 940px;
+            margin: 0 auto;
+            background-image: url("images/image.jpg");
+            text-align: justify;
+            line-height: 1.5em;
+            font-family: 'Times New Roman', Times, serif;    
+        }
+        /*style the overall the div with id wrapper*/
+        div#wrapper{
+            background-color: rgba(255, 192, 203, 0.478);
+            padding: 15px
+        }
+        /* style h1 tag is placed inside the div with the id named wrapper*/
+        div#wrapper h1{
+            color: rgb(240, 140, 156);
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* style my image is placed inside the div with the id named wrapper*/
+        div#wrapper img{
+            float: right;
+            width: 300px;
+            margin-top: 0px;
+            border: rgb(227, 153, 180) 3px dashed;
+            padding: 2px; 
+            box-sizing: border-box;
+            margin-left: 40px;
+        }
+        /* style h2 tag is placed inside the div with the id named wrapper*/
+        div#wrapper h2 {
+            color:rgb(179, 35, 59);
+        }
+        /* style paragraph tag has bold tag is placed inside the div with the id named wrapper*/
+        div#wrapper p b{
+            color:rgb(168, 39, 99);
+        }
+
+        /* style unordered list tag has bold tag is placed inside the div with the id named wrapper*/
+        div#wrapper ul b{
+            color: rgb(146, 75, 75);
+        }
+        
+        /* style unordered list tag has strong tag is placed inside the div with the id named wrapper*/
+        div#wrapper ul strong{
+            color: rgb(81, 10, 10);
+        }
+
+        /* style ordered list tag has emphasize tag is placed inside the div with the id named wrapper*/
+        div#wrapper ol em{
+            color: rgba(150, 37, 37, 0.731);
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <div id = "wrapper">
+        <!--Title-->
+        <h1>Van Quach's Portal Page</h1>
+        <hr>
+        <!--First part: My background-->
+        <h2>Background</h2>
+        <!--First paragraph-->
+        <p> My name is <strong>Van Quach</strong>. I was born in Vietnam and moved to Seattle when I turned 18 to pursue my dream of studying Computer Science.
+            I chose North Seattle College as my starting point to achieve my goal. I completed my first degree with an Associate of Science in December 2023.
+            Recently, I received a general admission to UW Tacoma in January, but I am still waiting for the acceptance decision from the SET department.
+            In the meantime, I decided to pursue my second degree as a full-stack developer while waiting for the transfer to UW. 
+        </p>
+        <img src = "images/embroidery.JPG" alt = "Van enjoys embroidering">
+        <p><b>Here is my education timeline summary:</b> </p>
+        <!--List for education milestones-->
+        <ul> 
+            <li><b>North Seattle College</b>
+                <ol>
+                    <li><strong>Associate of Science</strong>
+                        <ul>
+                            <li><b><em><u>Major:</u> SciFocus Computer Science </em></b></li>
+                            <li><b><em><u>Duration:</u> October 2020 - December 2023</em></b></li>
+                        </ul>
+                    </li>
+                    <li><strong>Professional Technical Certificate</strong>
+                        <ul>
+                            <li><b><em><u>Major:</u> Full Stack Developer </em></b></li>
+                            <li><b><em><u>Duration:</u> April 2024 - Current</em></b></li>
+                        </ul>      
+                    </li>
+                </ol>
+            </li>
+
+            <li><b>University of Washington - Tacoma</b>
+                <ol>
+                    <li><strong>Bachelor of Science</strong>
+                        <ul>
+                            <li><b><em><u>Major:</u> Computer Science and System</em></b></li>
+                            <li><b><em><u>Duration:</u> September 2024 (expected)</em></b></li>
+                        </ul> 
+                    </li>
+                </ol>
+            </li>
+        </ul>
+
+        <!--List of skills-->
+        <p><b>Here is my technical skills summary</b></p>
+            <ul> 
+                <li><b>Programming Languages</b>
+                    <ol>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ol>
+                </li>
+    
+                <li><b>Tech/Tools</b>
+                    <ol>
+                        <li>HTML/CSS</li>
+                        <li>Git</li>
+                        <li>Mockito</li>
+                        <li>JUnit</li>
+                    </ol>
+                </li>
+                <li><b>Office Technology</b>
+                    <ol>
+                        <li>Excel</li>
+                        <li>PowerPoint</li>
+                        <li>Word</li>
+                    </ol>
+                </li>
+                <li><b>Languages</b>
+                    <ol>
+                        <li>Vietnamese</li>
+                        <li>English</li>
+                    </ol>
+                </li>
+            </ul>
+            <hr>
+            <!--Second part: describe my interests-->
+            <h2>My Interest</h2>
+            <!--Second paragraph-->
+            <p>I enjoy a variety of activities outside of my academic training such as drawing, working out, embroidering, and listening to music. 
+            I practiced yoga and pilates for two hours per day, or I went bouldering to become stronger and be able to do more complex poses.
+            However, there are times when I don't feel like I have enough energy to do physical exercise, so I choose to draw or embroider instead, as it helps me focus on my inner peace.
+            I am fascinated by the beauty of colors, so when I see my embroidery thread or watercolor, I just want to put on some music and enjoy the creative process. </p>
+
+            <hr>
+            <!--Link to HW-->
+            <h2>Homework Assignment</h2>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384305?module_item_id=1014311">Homework 1 - Portal</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384306?module_item_id=1014318">Homework 2 - Ruth</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384307?module_item_id=1014330">Homework 3 - Big</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384308?module_item_id=1014338">Homework 4 - Wireframe</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384309?module_item_id=1014349">Homework 5 - Form</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384310?module_item_id=1014355">Homework 6 - Your Template</a><br>
+            <a href = "https://canvas.seattlecolleges.edu/courses/22889/assignments/384304?module_item_id=1014359">Final Project - Design Category</a><br>
+            <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fnorth.mystudentswa.com%2Fvanqu%2Fit161%2Findex.html"><b>VALID!</b></a>
+    </div>
+
+    <!--Website Link-->
+    <!--north.mystudentswa.com/vanqu/it161/index.html-->
+    
+</body>
+</html>
